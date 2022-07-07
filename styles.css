@@ -1,0 +1,71 @@
+body{
+    height: 100vh;
+    font-style: 'Roboto';
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+background-color: #1F2937;
+height: 300px;
+padding: 5px 100px;
+display: flex;
+flex-direction: column;
+flex: 0 1 initial;
+max-height: 300px;
+}
+
+.box{
+    height: 300px;
+
+}
+.mainContent{
+    font-weight: 900;
+    font-size: 36px;
+}
+
+img{
+    flex: 0 1 0;
+    width: 30px;
+}
+
+.footer{
+
+}
+
+.showcase{
+
+}
+
+.testimonial{
+
+}
+
+.item img{
+
+}
+
+.toplinks{
+height: 30px;
+max-height: 30px;
+display: flex;
+justify-content: space-between;
+}
+.signup, .signup-alt{
+
+}
+.signup-alt{
+
+}
