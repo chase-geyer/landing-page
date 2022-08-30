@@ -38,7 +38,8 @@ margin: 0;
 }
 .toplinks img{
     flex: 0 1 0;
-    width: 30px;
+    /* width: ; */
+    height: 300px;
 }
 /* working with the testimonials box */
 .box{
@@ -112,9 +113,8 @@ text-align: center;
 .item img{
 width: 200px;
 height: 200px;
-border-radius: 10px;
-border-color: #3882f6;
-border-width: 10px;
+border-radius: 20px;
+border: 5px solid #3882f6;
 }
 
 .toplinks{
@@ -172,4 +172,11 @@ h2{
 .box.quote{
 background-color: lightgray;
 padding: 200px 100px;
+}
+.popup button{
+    border: 2px solid white;
+    /* padding: 5px; */
+}
+button{
+    border: 0px solid white;
 }
